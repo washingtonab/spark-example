@@ -1,6 +1,9 @@
 
-# Run on a Spark standalone cluster
+#./start-master.sh
 
+#./start-slave.sh spark://dell-optiplex:7077
+
+# Run on a Spark standalone cluster
 /opt/spark-2.4.4-bin-hadoop2.7/bin/spark-submit \
   --name "spark-example" \
   --class teste.Sample \
